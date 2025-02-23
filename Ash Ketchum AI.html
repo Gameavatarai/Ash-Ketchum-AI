@@ -11,11 +11,14 @@
       margin: 0;
       padding: 0;
       background-color: #f4f4f4;
+      height: 100vh; /* Ensure full viewport height */
+      display: flex;
+      justify-content: center; /* Center horizontally */
+      align-items: center; /* Center vertically */
     }
+
     #chat-container {
-      position: fixed;
-      bottom: 20px;
-      right: 20px;
+      position: relative;
       z-index: 9999;
     }
   </style>
@@ -41,4 +44,3 @@
   </script>
 </body>
 </html>
-
