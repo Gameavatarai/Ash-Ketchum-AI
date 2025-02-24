@@ -38,6 +38,9 @@
               persistence: 'localStorage' // Enable persistence using localStorage
             }
           });
+
+          // Automatically open the chat when it's ready
+          window.voiceflow.chat.open();
         }
         v.src = "https://cdn.voiceflow.com/widget-next/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
     })(document, 'script');
